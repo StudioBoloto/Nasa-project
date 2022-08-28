@@ -1,0 +1,6 @@
+.header__logo {
+    width: 85px;
+    height: 70px;
+    background: url("../../../images/logo/logo-nasa.svg") no-repeat center;
+    background-size: cover;
+}

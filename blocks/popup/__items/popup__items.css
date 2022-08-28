@@ -1,0 +1,11 @@
+.popup__items {
+    font-family: 'HelveticaNeue', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 40px;
+    max-width: 100px;
+}

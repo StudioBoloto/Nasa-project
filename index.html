@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA</title>
+    <link rel="stylesheet" href="pages/index.css">
+</head>
+<body>
+<div class="page">
+    <header class="header">
+        <div class="header__logo"></div>
+    </header>
+    <main class="content">
+        <section class="landing">
+            <button type="button" class="landing__open-button" id="btnOpen">Оставить заявку</button>
+        </section>
+    </main>
+    <div class="popup" id="myPopup">
+        <div class="popup__container">
+            <div class="popup__close-button" id="btnClose"></div>
+            <h2 class="popup__title">Расскажите о себе</h2>
+            <p class="popup__subtitle">и отправьтесь в космос вместе с NASA!</p>
+            <form class="popup__form" name="">
+                <input name="" type="text" placeholder="Ваше имя" class="popup__input">
+                <p class="popup__items-title">Выберите планеты, которые хотели бы посетить</p>
+                <div class="popup__items">
+                    <div class="popup__item">
+                        <input type="checkbox" name="planet" id="mercury" value="mercury">
+                        <label for="mercury" class="popup__item-direction-right">Меркурий</label>
+                    </div>
+                    <div class="popup__item">
+                        <input type="checkbox" name="planet" id="Venus" value="Venus">
+                        <label for="Venus" class="popup__item-direction-right">Венера</label>
+                    </div>
+                    <div class="popup__item">
+                        <input type="checkbox" name="planet" id="Mars" value="Mars">
+                        <label for="Mars" class="popup__item-direction-right">Марс</label>
+                    </div>
+                    <div class="popup__item">
+                        <input type="checkbox" name="planet" id="Jupiter" value="Jupiter">
+                        <label for="Jupiter" class="popup__item-direction-right">Юпитер</label>
+                    </div>
+                    <div class="popup__item">
+                        <input type="checkbox" name="planet" id="Saturn" value="Saturn">
+                        <label for="Saturn" class="popup__item-direction-right">Сатурн</label>
+                    </div>
+                    <div class="popup__item">
+                        <input type="checkbox" name="planet" id="Uranium" value="Uranium">
+                        <label for="Uranium" class="popup__item-direction-right">Уран</label>
+                    </div>
+                    <div class="popup__item">
+                        <input type="checkbox" name="planet" id="Neptune" value="Neptune">
+                        <label for="Neptune" class="popup__item-direction-right">Нептун</label>
+                    </div>
+                </div>
+                <p class="popup__items-title">Выберите удобный способ оплаты</p>
+                <div class="popup__items">
+                    <div class="popup__item">
+                        <input type="radio" name="payment" id="cash" value="cash">
+                        <label for="cash" class="popup__item-direction-right">наличные</label>
+                    </div>
+                    <div class="popup__item">
+                        <input type="radio" name="payment" id="Bitcoin" value="Bitcoin">
+                        <label for="Bitcoin" class="popup__item-direction-right">Bitcoin</label>
+                    </div>
+                    <div class="popup__item">
+                        <input type="radio" name="payment" id="Dogecoin" value="Dogecoin">
+                        <label for="Dogecoin" class="popup__item-direction-right">Dogecoin</label>
+                    </div>
+                    <div class="popup__item">
+                        <input type="radio" name="payment" id="Chillim" value="Chillim">
+                        <label for="Chillim" class="popup__item-direction-right">Chillim</label>
+                    </div>
+                </div>
+                <button type="submit" class="popup__save-button">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="scripts/components/popup.js"></script>
+</body>
+</html>

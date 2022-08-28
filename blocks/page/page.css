@@ -1,0 +1,5 @@
+.page {
+    background: url("../../images/background/star_background.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}

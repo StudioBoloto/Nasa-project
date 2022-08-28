@@ -1,0 +1,12 @@
+.landing {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    margin-top: 300px;
+}
+
+@media screen and (max-width: 730px){
+    .landing {
+        width: 90%;
+    }
+}

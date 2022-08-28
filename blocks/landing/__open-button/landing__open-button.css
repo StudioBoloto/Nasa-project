@@ -1,0 +1,21 @@
+.landing__open-button {
+    font-family: 'HelveticaNeue', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5rem;
+    width: 700px;
+    height: 300px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 730px){
+    .landing__open-button {
+        width: 100%;
+        height: 150px;
+        font-size: 2.5rem;
+    }
+}
